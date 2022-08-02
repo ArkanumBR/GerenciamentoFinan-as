@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+form{
+   display: flex;
+   flex-direction: column;
+   width: 363px;
+   height: 351px;
+   border-radius: 4px;
+   padding: 38px 25px;
+   justify-content: space-between;
+   font-family: "Nunito";
+   border: 1px solid #E9ECEF;
+   
+}
+form input {
+   font-weight: 400;
+   font-size: 12.75px;
+   line-height: 26px;
+   color: black;
+   background-color: #F8F9FA;
+   padding: 8px 8px;
+   border: none;
+   border-radius: 8px;
+   margin-bottom: 4.4px;
+}
+
+.descricao{
+   margin-left:15px;
+}
+.inputDescricao{
+   width:314px;
+   height:35px;
+   margin-left:15px;
+}
+.inputValor{
+   width:128px;
+   height:35px;
+   margin-left:15px;
+}
+.pExemplo {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+   color: #868E96;
+   margin-bottom: 17.7px;
+   margin-left:15px;
+}
+.divTextoForm {
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-left:15px;
+}
+ 
+.divDosInputs {
+   margin-bottom: 19px;
+}
+.tipoDeValor{
+   margin-right:80px
+}
+
+select {
+   font-weight: 400;
+   font-size: 12.75px;
+   line-height: 26px;
+   color: black;
+   padding: 12px 8px;
+   border: none;
+   background-color: #F8F9FA;
+   border-radius: 8px;
+   cursor: pointer;
+   margin-left: 25px;
+
+}
+form button {
+   width: 300px;
+   background-color: #FD377E;
+   line-height: 30px;
+   border: 2px solid #FD377E;
+   border-radius: 8px;
+   color: white;
+   font-weight: 500;
+   font-size: 16px;
+   cursor: pointer;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+form button:hover {
+   background-color: #E34981;
+   border: 2px solid #E34981;
+}

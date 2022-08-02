@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+.list{
+    font-family: "Nunito";
+    margin-right: 7%;
+
+}
+
+.cabecalhoCard{
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloList{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212529;
+    padding-top: 20px;
+
+
+}
+
+.divBotoesList{
+    margin-left: 145px;
+    
+}
+.botoesFiltro{
+    width: auto;
+    height: 40px;
+    background: #E9ECEF;    
+    color: #343A40;      
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "Nunito";
+    line-height: 19.1px;
+}
+
+.botoesFiltro:hover{
+    background-color: #FD377E;
+    color:white
+}
+
+.cardTransacoes{
+
+}

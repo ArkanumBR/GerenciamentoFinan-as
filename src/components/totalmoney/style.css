@@ -1,0 +1,31 @@
+.totalMovimento{   
+    margin-top: 15px; 
+    width: 363px;
+    height: 96px;
+    border-radius: 4px;
+    padding: 38px 25px;
+    justify-content: space-between;
+    font-family: "Nunito";
+    border: 1px solid #E9ECEF;  
+}
+.valorTotal{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212529;
+}
+.somatorio{
+    margin-left: 150px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FD377E;
+}
+
+.saldo{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #343A40;
+    margin-top: 35px;
+}

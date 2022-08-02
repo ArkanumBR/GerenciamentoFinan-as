@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+
+.card{
+    background: #F8F9FA;
+    margin-top: 32px;
+    height: 87px;
+    width: 560px;
+    border-radius: 8px;
+    box-shadow: -5px 0px 0px -2px rgba(0,128,0,0.79);
+    -webkit-box-shadow: -5px 0px 0px -2px rgba(0,128,0,0.79);
+    -moz-box-shadow: -5px 0px 0px -2px rgba(0,128,0,0.79);
+}
+
+.infosCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.descricaoTransacao{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212529;
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 337px;
+}
+.valorTransacao{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+    margin-left: 41px;
+    margin-top:16px;
+}
+.lixeira{
+    margin-left: 70px;
+    margin-top:16px;
+}
+.tipoTransacao{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #343A40;
+    margin-left: 10px;
+}
+
+.trash{
+    background: #E9ECEF;
+    border-radius: 2.46154px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.trash:hover{
+    background: #343A40;
+    border-radius: 2.46154px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    color:white;
+    cursor: pointer
+}
