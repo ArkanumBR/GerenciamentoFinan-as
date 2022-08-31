@@ -5,6 +5,8 @@ import './style.css'
 function List ({ listTransactions }){
 
     return (
+        <>
+        {listTransactions.length > 0 ?
         <div className="list">            
             <div className="cabecalhoCard">
                 <span className="tituloList">Resumo Financeiro</span>
@@ -23,6 +25,10 @@ function List ({ listTransactions }){
             </div>           
             
         </div>
+        :
+        <div className="divVazia">Não existem transações</div>
+                }
+        </>
     )
 }
 

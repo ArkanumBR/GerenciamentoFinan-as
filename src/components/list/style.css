@@ -47,6 +47,18 @@
     background-color: #FD377E;
     color:white
 }
+.divVazia{     
+    width: 32vw;
+    height: 4vh;
+    border-radius: 4px;
+    padding: 38px 25px;
+    justify-content: space-between;
+    font-family: "Nunito";
+    border: 1px solid #E9ECEF;
+    margin-top: 15px;
+    margin-left: 28px;
+    text-align: center;
+  }
 
 @media only screen and (max-width: 830px) {
  
@@ -56,7 +68,43 @@
         flex-direction: row;
         width: 80vw;
     }
+    .divBotoesList{
+        margin-left: auto;
+        width: 55vw;
+        
+    }
     
+    .botoesFiltro{
+        width: auto;
+        height: 20px;       
+       
+        font-weight: 550;
+        font-size: auto;            
+        line-height: 14px;
+    }
+    
+    .tituloList {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #212529;
+        
+        margin-left: 25%;
+    }
+    .divVazia{     
+        width: 80vw;
+        height: 4vh;
+        border-radius: 4px;
+        padding: 38px 25px;
+        justify-content: space-between;
+        font-family: "Nunito";
+        border: 1px solid #E9ECEF;
+        margin-top: 15px;
+        margin-left: 28px;
+        text-align: center;
+      }
     
    
   }
+
+  

@@ -55,3 +55,47 @@ header button:hover {
     margin-top: 50px;
   }
 }
+
+@media only screen and (max-width: 280px) {
+  header{
+    margin-left: 27px;
+    width: 100%;
+  }
+  
+  header div{
+    margin-left: 10px
+     
+  }
+  
+  header img{
+    margin-left: 10px
+  }
+  
+  header button{
+    margin-left: 52px;
+  }
+   
+  header button:hover {
+    background-color: #FD377E;
+    color:white
+   
+   }
+  
+  
+  
+  .containerPrincipal{  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 281px) {
+  header img{
+    margin-left: 30%
+  }
+  
+  header button{
+    margin-left: 5%;
+  }
+}

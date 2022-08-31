@@ -17,11 +17,12 @@ function Form ({ listTransactions, setListTransactions }){
     }
 
     return(
-        <form>
+        <form onSubmit={handleSubmit}>
             <p className="descricao">Descrição</p>
             <input className="inputDescricao"
             placeholder="Digite aqui sua descrição"
-            onChange={event => setDescription(event.target.value)}/>
+            required            
+            onChange={event => setDescription(event.target.value)} />
             <p className="pExemplo">Ex: Supermercado</p>
             <div className="divTextoForm">
                 <p>Valor</p>
@@ -31,14 +32,15 @@ function Form ({ listTransactions, setListTransactions }){
                 <input 
                 className="inputValor"
                 placeholder="1"
-                onChange={event => setValue(Number(event.target.value))}/>
-                <select className="tiposDeOperacoes"onChange={event => setType(event.target.value)}>
-                    <option>Selecione</option>
+                required                
+                onChange={event => setValue(Number(event.target.value))} />
+                <select className="tiposDeOperacoes" required onChange={event => setType(event.target.value)} >
+                    <option value="">Selecione</option>
                     <option value="Entrada">Entrada</option>
                     <option value="Saída">Saída</option>
                 </select>
             </div>
-            <button type="submit" onClick={handleSubmit}>Inserir Valor</button>
+            <button type="submit">Inserir Valor</button>
 
         </form>
     )

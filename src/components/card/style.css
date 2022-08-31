@@ -75,9 +75,16 @@
    
     .card{
         margin-left: 40px;
-        width: 80vw;
+        width: 85vw;}
         
-    
-   
-  }
+        .descricaoTransacao {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            color: #212529;
+            margin-left: 10px;
+            margin-top: 8px;
+}
 }
