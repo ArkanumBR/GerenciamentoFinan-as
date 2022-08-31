@@ -9,6 +9,7 @@
 .cabecalhoCard{
     display: flex;
     flex-direction: row;
+    width: 38vw;
 }
 
 .tituloList{
@@ -32,7 +33,7 @@
     color: #343A40;      
     cursor: pointer;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: auto;
     border: 1.4px solid #E9ECEF;
     border-radius: 8px;
     font-weight: 550;
@@ -47,6 +48,15 @@
     color:white
 }
 
-.cardTransacoes{
-
-}
+@media only screen and (max-width: 830px) {
+ 
+    .cabecalhoCard{
+        margin-left: 40px;
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+    }
+    
+    
+   
+  }

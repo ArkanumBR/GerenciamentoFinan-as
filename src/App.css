@@ -47,3 +47,11 @@ header button:hover {
   justify-content: space-around;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 830px) {
+  .containerPrincipal{  
+    display: flex;   
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
